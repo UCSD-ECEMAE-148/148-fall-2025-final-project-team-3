@@ -1,5 +1,8 @@
 # <div align="center">Hazard Identification Bot</div>
-
+<div align="center">
+  <a href="https://jacobsschool.ucsd.edu/">
+    <img src="images\UCSD-JSOE-LOGO.png" alt="Logo" width="432" height="108">
+  </a>
 
 <h3>Team 3</h3>
 <h3>MAE 148 Final Project Fall 2025</h3>
@@ -60,4 +63,16 @@ The goal of our project, the "Hazard Identification Bot", is to more effectively
  
 ## Demonstration
 * link the vid
+
+## Robot Design
+<div align="center">
+  <a href="https://jacobsschool.ucsd.edu/">
+    <img src="images\Car_CAD.png">
+  </a>
+
+## Wiring Diagram
+<div align="center">
+  <a href="https://jacobsschool.ucsd.edu/">
+    <img src="images\Car_Wiring.png">
+  </a>
 
