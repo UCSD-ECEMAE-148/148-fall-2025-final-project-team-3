@@ -5,7 +5,7 @@
 <h3>MAE 148 Final Project Fall 2025</h3>
 <p>
 </p>
-<img src="images\CAR.jpg?" width="605" height="501">
+<img src="images\Car.jpg" width="605" height="501">
 </div>
 
 ## Table of Contents
