@@ -65,13 +65,11 @@ The goal of our project, the "Hazard Identification Bot", is to more effectively
 * link the vid
 
 ## Robot Design
-<div align="center">
   <a href="https://jacobsschool.ucsd.edu/">
     <img src="images\Car_CAD.png">
   </a>
 
 ## Wiring Diagram
-<div align="center">
   <a href="https://jacobsschool.ucsd.edu/">
     <img src="images\Car_Wiring.png">
   </a>
