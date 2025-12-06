@@ -14,12 +14,10 @@
     <li><a href="#abstract">Abstract</a></li>
     <li><a href="#what-we-promised">What We Promised</a></li>
     <li><a href="#accomplishments">Accomplishments</a></li>
-    <li><a href="#demonstration">Demonstration</a></li>
     <li><a href="#challenges">Challenges</a></li>
-    <li><a href="#robot-design">Robot Design</a></li>
-    <li><a href="#electrical-diagram">Electrical Diagram</a></li>
-    <li><a href="#references">References</a></li>
-    <li><a href="#contacts">Contacts</a></li>
+    <li><a href="#demonstration">Demonstration</a></li>
+    
+    
   </ol>
   
 ## Team Members
