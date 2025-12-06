@@ -78,7 +78,8 @@ The goal of our project, the "Hazard Identification Bot", is to more effectively
   </a>
 
 ## Implementation and Testing
-Starting with the base docker image from djnighti/ucsd_robocar, adding the packages and launch files as necessary in the correct directories. Basic ros2 run/launch commands are listed below to test different subsystems
+Starting with the base docker image from djnighti/ucsd_robocar, adding the packages and launch files as necessary in the correct directories. Basic ros2 run/launch commands are listed below to test different subsystems, with example outputs listed in the demonstration video above.
+
 * OAKD Detection (with visualization assuming using X11 forwarding)
 ```
 ros2 run depthai_best_detection best_detection_node \
