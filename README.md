@@ -107,3 +107,7 @@ ros2 launch ucsd_robocar_sensor2_pkg lidar_with_forward_distance.launch.py
 ros2 launch ucsd_robocar_nav2_pkg hazard_oakd.launch.py
 ```
 
+* GPS UI (To access the web UI, go to localhost:5000)
+```
+python3 hazard_server.py
+```
