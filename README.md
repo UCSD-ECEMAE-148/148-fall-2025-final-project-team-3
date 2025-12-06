@@ -65,7 +65,7 @@ The goal of our project, the "Hazard Identification Bot", is to more effectively
 * Additionally, there were isses interfacing the depth detection with the ROS2 environment. As this project builds on the UCSD ECEMAE 148 docker image (djnighti/ucsd_robocar), it has and outdated depthai library that we updated
  
 ## Demonstration
-* link the vid
+[<img src="images\Car.jpg" width="300">](https://youtu.be/1juHBhWz0MQ?si=Pjw60vCCNlXvP-IJ)
 
 ## Robot Design
   <a >
