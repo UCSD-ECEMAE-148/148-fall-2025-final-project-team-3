@@ -19,6 +19,9 @@
     <li><a href="#accomplishments">Accomplishments</a></li>
     <li><a href="#challenges">Challenges</a></li>
     <li><a href="#demonstration">Demonstration</a></li>
+    <li><a href="#robot-design">Robot Design</a></li>
+    <li><a href="#wiring-diagram">Wiring Diagram</a></li>
+    <li><a href="#implementation-and-testing">Implementation and Testing</a></li>
     
     
   </ol>
@@ -73,4 +76,34 @@ The goal of our project, the "Hazard Identification Bot", is to more effectively
   <a href="https://jacobsschool.ucsd.edu/">
     <img src="images\Car_Wiring.png">
   </a>
+
+## Implementation and Testing
+Starting with the base docker image from djnighti/ucsd_robocar, adding the packages and launch files as necessary in the correct directories. Basic ros2 run/launch commands are listed below to test different subsystems
+* OAKD Detection (with visualization assuming using X11 forwarding)
+```
+ros2 run depthai_best_detection best_detection_node \
+  --ros-args -p blob_path:=/home/projects/ros2_ws/models/hazard.blob \
+             -p show_visualization:=true
+```
+* Webcam Detection (if want to test seperate from the OAKD)
+```
+ros2 run depthai_best_detection webcam_cpu_detector \
+  --ros-args -p model_path:=/home/projects/ros2_ws/models/hazard.pt \
+             -p show_visualization:=true
+```
+
+* GPS Node
+```
+ros2 run gps_publisher gps_node
+```
+
+* Lidar+Forward Detection Smoothing
+```
+ros2 launch ucsd_robocar_sensor2_pkg lidar_with_forward_distance.launch.py
+```
+
+* PID Hazard Navigation
+```
+ros2 launch ucsd_robocar_nav2_pkg hazard_oakd.launch.py
+```
 
